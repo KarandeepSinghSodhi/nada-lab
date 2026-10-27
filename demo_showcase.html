@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Song Lab — Official Product Demo &amp; Marketing Showcase</title>
+  <style>
+    :root {
+      --bg: #0b0c10;
+      --card-bg: #14161d;
+      --border: rgba(241, 241, 239, 0.12);
+      --accent: #8fa68e;
+      --accent-gold: #d4a373;
+      --text: #f1f1ef;
+      --text-muted: #928f85;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px 80px;
+    }
+
+    .container {
+      max-width: 1080px;
+      width: 100%;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 12px;
+      background: rgba(143, 166, 142, 0.15);
+      border-radius: 4px;
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 12px;
+      color: #ffffff;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      color: var(--text-muted);
+      max-width: 680px;
+      margin: 0 auto;
+      line-height: 1.5;
+    }
+
+    [data-ui="showcase-card"] {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 32px;
+    }
+
+    .video-wrapper {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: #000;
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .video-controls {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 8px;
+    }
+
+    button, .btn-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.15s ease, color 0.15s ease;
+      border: none;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #121212;
+    }
+    .btn-primary:hover {
+      background: #a4bca3;
+    }
+
+    .btn-secondary {
+      background: #1f222b;
+      color: var(--text);
+    }
+    .btn-secondary:hover {
+      background: #2a2e3a;
+    }
+
+    .section-title {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    .chapters-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 14px;
+      margin-bottom: 36px;
+    }
+
+    [data-ui="chapter-card"] {
+      background: var(--card-bg);
+      border-radius: 8px;
+      padding: 16px;
+      cursor: pointer;
+      transition: background 0.15s ease, transform 0.15s ease;
+    }
+    [data-ui="chapter-card"]:hover {
+      background: #1b1e27;
+      transform: translateY(-2px);
+    }
+
+    .chapter-time {
+      font-size: 12px;
+      color: var(--accent-gold);
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .chapter-title {
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 6px;
+      color: #fff;
+    }
+
+    .chapter-desc {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    .feature-highlights {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 14px;
+      margin-bottom: 36px;
+    }
+
+    [data-ui="metric-card"] {
+      background: var(--card-bg);
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    .highlight-num {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+
+    .highlight-title {
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .highlight-body {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 13px;
+      margin-top: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="badge">
+        <span>●</span> OFFICIAL PRODUCT DEMO &amp; MARKET LAUNCH
+      </div>
+      <h1>Song Lab: Sing with Soul. Measure with Science.</h1>
+      <p class="subtitle">
+        The world’s first microtonal AI vocal and musical intelligence workstation. Overcoming 12-TET quantization drift with continuous Riemannian Flow Matching and real-time forensic acoustics.
+      </p>
+    </header>
+
+    <div data-ui="showcase-card">
+      <div class="video-wrapper">
+        <video id="demoVideo" controls autoplay loop playsinline poster="marketing_poster.png">
+          <source src="marketing_demo.webm" type="video/webm">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-controls">
+        <div class="btn-group">
+          <button type="button" class="btn-primary" id="playPauseBtn">⏯ Play / Pause</button>
+          <button type="button" class="btn-secondary" id="restartBtn">↺ Replay</button>
+        </div>
+        <div class="btn-group">
+          <a href="marketing_demo.webm" download="Song_Lab_Marketing_Demo.webm" class="btn-secondary">⬇ Download Video (WebM)</a>
+          <a href="index.html" class="btn-primary">Launch Live Studio →</a>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="section-title">Demo Chapters &amp; Walkthrough</h2>
+    <div class="chapters-grid">
+      <div data-ui="chapter-card" onclick="seekTo(0)">
+        <div class="chapter-time">0:00 - 0:07</div>
+        <div class="chapter-title">1. Beyond 12-TET Quantization</div>
+        <div class="chapter-desc">Why Suno, Udio, and OpenAI struggle with non-Western music; the RVQ codebook staircase artifact.</div>
+      </div>
+
+      <div data-ui="chapter-card" onclick="seekTo(7)">
+        <div class="chapter-time">0:07 - 0:14</div>
+        <div class="chapter-title">2. 22-Shruti Universal Tracker</div>
+        <div class="chapter-desc">Real-time sub-cent tracking for Voice, Bansuri Flute, Sitar, Guitar Strumming, and Tabla BPM.</div>
+      </div>
+
+      <div data-ui="chapter-card" onclick="seekTo(14)">
+        <div class="chapter-time">0:14 - 0:21</div>
+        <div class="chapter-title">3. Real-Time Rasa Radar</div>
+        <div class="chapter-desc">Continuous 2D Valence-Arousal affective steering across Shringara, Karuna, Shanta, and Vira.</div>
+      </div>
+
+      <div data-ui="chapter-card" onclick="seekTo(21)">
+        <div class="chapter-time">0:21 - 0:28</div>
+        <div class="chapter-title">4. AI Guru &amp; Circadian Clock</div>
+        <div class="chapter-desc">Instantaneous diagnostic critique with Nyasa stability, Gamak resonance, and 8-Prahara solar alignment.</div>
+      </div>
+
+      <div data-ui="chapter-card" onclick="seekTo(28)">
+        <div class="chapter-time">0:28 - 0:35</div>
+        <div class="chapter-title">5. NEURO-RASA Research Lab</div>
+        <div class="chapter-desc">Continuous Riemannian Flow Matching on M = R x S¹, PIKL biomechanics, and 87.2% intonation purity gain.</div>
+      </div>
+
+      <div data-ui="chapter-card" onclick="seekTo(35)">
+        <div class="chapter-time">0:35 - 0:42</div>
+        <div class="chapter-title">6. Market Launch &amp; Call to Action</div>
+        <div class="chapter-desc">Sing with Soul. Measure with Science. Local-first MIR engine with zero cloud latency.</div>
+      </div>
+    </div>
+
+    <h2 class="section-title">Verified Research &amp; Technical Metrics</h2>
+    <div class="feature-highlights">
+      <div data-ui="metric-card">
+        <div class="highlight-num">87.2%</div>
+        <div class="highlight-title">Intonation Error Drop</div>
+        <div class="highlight-body">1.20 cents DTW RMSE vs 9.44 cents in commercial discrete RVQ audio models.</div>
+      </div>
+
+      <div data-ui="metric-card">
+        <div class="highlight-num">&lt; 1.5c</div>
+        <div class="highlight-title">22-Shruti Precision</div>
+        <div class="highlight-body">Full microtonal capture of delicate shruti inflections, meends, and 2.1 Hz andolans.</div>
+      </div>
+
+      <div data-ui="metric-card">
+        <div class="highlight-num">99.25%</div>
+        <div class="highlight-title">Grammatical Adherence</div>
+        <div class="highlight-body">Zero modal leaks or forbidden notes via continuous Gaussian potential barriers.</div>
+      </div>
+
+      <div data-ui="metric-card">
+        <div class="highlight-num">100%</div>
+        <div class="highlight-title">Local &amp; Private</div>
+        <div class="highlight-body">Runs completely locally on client hardware; zero cloud audio uploading or lock-in.</div>
+      </div>
+    </div>
+
+    <footer>
+      <div>Song Lab © 2026 · AI &amp; Musicology Research Consortium</div>
+      <div>Publication manuscript: <code>research_lab/manuscript/main.tex</code> · Excluded from git via <code>.gitignore</code></div>
+    </footer>
+  </div>
+
+  <script>
+    const video = document.getElementById('demoVideo');
+    const playPauseBtn = document.getElementById('playPauseBtn');
+    const restartBtn = document.getElementById('restartBtn');
+
+    playPauseBtn.addEventListener('click', () => {
+      if (video.paused) {
+        video.play();
+        playPauseBtn.textContent = '⏸ Pause';
+      } else {
+        video.pause();
+        playPauseBtn.textContent = '▶ Play';
+      }
+    });
+
+    restartBtn.addEventListener('click', () => {
+      video.currentTime = 0;
+      video.play();
+      playPauseBtn.textContent = '⏸ Pause';
+    });
+
+    function seekTo(sec) {
+      video.currentTime = sec;
+      video.play();
+      playPauseBtn.textContent = '⏸ Pause';
+    }
+  </script>
+</body>
+</html>

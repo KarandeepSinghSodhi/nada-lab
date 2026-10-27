@@ -1,0 +1,3 @@
+arXiv API Terms of Use Notice
+Timestamp: 2026-10-23T15:21:00+05:30
+Notice: The user is reminded to check the arXiv API terms of use at https://info.arxiv.org/help/api/index.html and to always check the licenses of individual papers retrieved from arXiv for any redistribution or reuse restrictions.

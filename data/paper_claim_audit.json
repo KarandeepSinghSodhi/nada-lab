@@ -1,0 +1,187 @@
+[
+  {
+    "claim": "Raag recognition using pitch-class and pitch-class dyad distributions",
+    "claimed_year": 2007,
+    "found": "Raag Recognition Using Pitch-Class and Pitch-Class Dyad Distributions.",
+    "year": 2007,
+    "doi": "https://doi.org/10.5072/zenodo.243928",
+    "id": "https://openalex.org/W2398453123",
+    "venue": "International Symposium/Conference on Music Information Retrieval"
+  },
+  {
+    "claim": "Time-delayed melody surfaces for raga recognition",
+    "claimed_year": 2016,
+    "found": "Time-Delayed Melody Surfaces for Rāga Recognition.",
+    "year": 2016,
+    "doi": "https://doi.org/10.5072/zenodo.243926",
+    "id": "https://openalex.org/W2515044780",
+    "venue": "RECERCAT (Consorci de Serveis Universitaris de Catalunya)"
+  },
+  {
+    "claim": "DeepSRGM sequence classification and ranking in Indian classical music",
+    "claimed_year": 2019,
+    "found": "DeepSRGM -- Sequence Classification and Ranking in Indian Classical Music with Deep Learning",
+    "year": 2024,
+    "doi": "https://doi.org/10.48550/arxiv.2402.10168",
+    "id": "https://openalex.org/W2989912705",
+    "venue": "arXiv (Cornell University)"
+  },
+  {
+    "claim": "A multipitch approach to tonic identification in Indian classical music",
+    "claimed_year": 2012,
+    "found": "A Multipitch Approach To Tonic Identification In Indian Classical Music.",
+    "year": 2012,
+    "doi": "https://doi.org/10.5281/zenodo.1415645",
+    "id": "https://openalex.org/W1496975172",
+    "venue": "RECERCAT (Consorci de Serveis Universitaris de Catalunya)"
+  },
+  {
+    "claim": "Automatic tonic identification in Indian art music: approaches and evaluation",
+    "claimed_year": 2014,
+    "found": "Automatic Tonic Identification in Indian Art Music: Approaches and Evaluation",
+    "year": 2014,
+    "doi": "https://doi.org/10.1080/09298215.2013.875042",
+    "id": "https://openalex.org/W2157850652",
+    "venue": "Journal of New Music Research"
+  },
+  {
+    "claim": "Particle filters for efficient meter tracking with dynamic Bayesian networks",
+    "claimed_year": 2015,
+    "found": "Particle Filters For Efficient Meter Tracking With Dynamic Bayesian Networks.",
+    "year": 2015,
+    "doi": "https://doi.org/10.5281/zenodo.1416735",
+    "id": "https://openalex.org/W1766987695",
+    "venue": "RECERCAT (Consorci de Serveis Universitaris de Catalunya)"
+  },
+  {
+    "claim": "A hierarchical Bayesian approach to tala tracking",
+    "claimed_year": 2014,
+    "found": null
+  },
+  {
+    "claim": "Quantized melodic contours in Indian art music perception application to transcription",
+    "claimed_year": null,
+    "found": "Quantized Melodic Contours In Indian Art Music Perception: Application To Transcription.",
+    "year": 2017,
+    "doi": "https://doi.org/10.5281/zenodo.1417566",
+    "id": "https://openalex.org/W2775749363",
+    "venue": "NOT FOUND REPOSITORY (Indian Institute of Science Bangalore)"
+  },
+  {
+    "claim": "Tabla gharana recognition from audio music recordings of tabla solo performances",
+    "claimed_year": null,
+    "found": "Tabla Gharana Recognition from Audio music recordings of Tabla Solo performances",
+    "year": 2021,
+    "doi": "https://doi.org/10.5281/zenodo.5624630",
+    "id": "https://openalex.org/W4225349143",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+  },
+  {
+    "claim": "Saraga: open datasets for research on Indian art music",
+    "claimed_year": 2020,
+    "found": "Saraga: Open Datasets for Research on Indian Art Music",
+    "year": 2021,
+    "doi": "https://doi.org/10.18061/emr.v16i1.7641",
+    "id": "https://openalex.org/W4200031395",
+    "venue": "Empirical Musicology Review"
+  },
+  {
+    "claim": "Dunya: a system for browsing audio music collections exploiting cultural context",
+    "claimed_year": 2013,
+    "found": "Dunya: a system for browsing audio music collections exploiting cultural context",
+    "year": 2013,
+    "doi": null,
+    "id": "https://openalex.org/W101179541",
+    "venue": "RECERCAT (Consorci de Serveis Universitaris de Catalunya)"
+  },
+  {
+    "claim": "Essentia: an audio analysis library for music information retrieval",
+    "claimed_year": 2013,
+    "found": "Essentia: An Audio Analysis Library For Music Information Retrieval.",
+    "year": 2013,
+    "doi": "https://doi.org/10.5281/zenodo.1415015",
+    "id": "https://openalex.org/W2385545",
+    "venue": "PubMed"
+  },
+  {
+    "claim": "Modeling ornaments in Carnatic music signals via wavelets",
+    "claimed_year": 2020,
+    "found": "Modeling Ornaments in Carnatic Music Signals via Wavelets",
+    "year": 2020,
+    "doi": "https://doi.org/10.1109/ieeeconf51394.2020.9443302",
+    "id": "https://openalex.org/W3169962499",
+    "venue": "2018 52nd Asilomar Conference on Signals, Systems, and Computers"
+  },
+  {
+    "claim": "Carnatic music: svara, gamaka, motif and raga identity",
+    "claimed_year": 2012,
+    "found": "Carnatic music: Svara, Gamaka, Motif and Raga identity",
+    "year": 2012,
+    "doi": null,
+    "id": "https://openalex.org/W798047979",
+    "venue": "RECERCAT (Consorci de Serveis Universitaris de Catalunya)"
+  },
+  {
+    "claim": "Hierarchical generative modeling of melodic vocal contours in Hindustani classical music",
+    "claimed_year": 2024,
+    "found": "Hierarchical Generative Modeling of Melodic Vocal Contours in Hindustani Classical Music",
+    "year": 2024,
+    "doi": "https://doi.org/10.48550/arxiv.2408.12658",
+    "id": "https://openalex.org/W4402698756",
+    "venue": "arXiv (Cornell University)"
+  },
+  {
+    "claim": "Mellotron: multispeaker expressive voice synthesis by conditioning on rhythm, pitch and global style tokens",
+    "claimed_year": 2020,
+    "found": "Mellotron: Multispeaker Expressive Voice Synthesis by Conditioning on Rhythm, Pitch and Global Style Tokens",
+    "year": 2020,
+    "doi": "https://doi.org/10.1109/icassp40776.2020.9054556",
+    "id": "https://openalex.org/W2981934523",
+    "venue": "IEEE International Conference on Acoustics Speech and Signal Processing"
+  },
+  {
+    "claim": "Raga and tonic identification in Carnatic music",
+    "claimed_year": 2017,
+    "found": "Raga and Tonic Identification in Carnatic Music",
+    "year": 2017,
+    "doi": "https://doi.org/10.1080/09298215.2017.1330351",
+    "id": "https://openalex.org/W2618446024",
+    "venue": "Journal of New Music Research"
+  },
+  {
+    "claim": "Segmentation and recognition of tabla strokes",
+    "claimed_year": 2005,
+    "found": "Segmentation and Recognition of Tabla Strokes.",
+    "year": 2005,
+    "doi": "https://doi.org/10.5072/zenodo.243760",
+    "id": "https://openalex.org/W116266216",
+    "venue": null
+  },
+  {
+    "claim": "Tracking the odd: meter inference in a culturally diverse music corpus",
+    "claimed_year": 2014,
+    "found": "Tracking The \"Odd\": Meter Inference In A Culturally Diverse Music Corpus.",
+    "year": 2014,
+    "doi": "https://doi.org/10.5281/zenodo.1414999",
+    "id": "https://openalex.org/W89500126",
+    "venue": null
+  },
+  {
+    "claim": "Informed automatic meter analysis of music recordings",
+    "claimed_year": 2017,
+    "found": "Informed Automatic Meter Analysis Of Music Recordings.",
+    "year": 2017,
+    "doi": "https://doi.org/10.5281/zenodo.1415687",
+    "id": "https://openalex.org/W2775661923",
+    "venue": "RECERCAT (Consorci de Serveis Universitaris de Catalunya)"
+  },
+  {
+    "claim": "Recognizing ornaments in vocal Indian art music with active annotation",
+    "claimed_year": null,
+    "found": "Recognizing Ornaments in Vocal Indian Art Music With Active Annotation",
+    "year": 2025,
+    "doi": "https://doi.org/10.1109/taslpro.2025.3639738",
+    "id": "https://openalex.org/W4416961266",
+    "venue": "IEEE Transactions on Audio Speech and Language Processing"
+  }
+]

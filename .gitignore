@@ -1,0 +1,19 @@
+# Virtual Environment & Python cache
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Private Research & Publication Lab (Not to be committed)
+research_lab/
+papers/
+
+# Testing & Artifacts
+.pytest_cache/
+.taste-skill/
+.system_generated/
+*.log
+*.tmp
+scratch/
+

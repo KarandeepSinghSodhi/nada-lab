@@ -1,0 +1,614 @@
+[
+  {
+    "url": "https://arxiv.org/abs/1910.11997",
+    "status": 200,
+    "note": "arXiv title: 'Mellotron: Multispeaker expressive voice synthesis by conditioning on rhythm, pitch and gl'",
+    "docs": [
+      "research_papers_curation_and_applications.md"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2407.12345",
+    "status": 200,
+    "note": "arXiv title: 'VisionTrap: Vision-Augmented Trajectory Prediction Guided by Textual Descriptions'",
+    "docs": [
+      "research_papers_curation_and_applications.md"
+    ]
+  },
+  {
+    "url": "https://beatoven.ai",
+    "status": 200,
+    "note": "http 200",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://boomy.com",
+    "status": 200,
+    "note": "http 200",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://chandrakantha.com",
+    "status": 200,
+    "note": "http 200",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1007/978-981-10-3373-5_14",
+    "status": 200,
+    "note": "DOI resolves to: 'Segmentation of Tomato Plant Leaf' (2017)",
+    "docs": [
+      "research_papers_curation_and_applications.md"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1080/09298215.2013.844747",
+    "status": 404,
+    "note": "DOI NOT FOUND IN OPENALEX",
+    "docs": [
+      "research_papers_curation_and_applications.md"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1080/09298215.2014.936087",
+    "status": 404,
+    "note": "DOI NOT FOUND IN OPENALEX",
+    "docs": [
+      "research_papers_curation_and_applications.md"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1145/2483574.2483664",
+    "status": 404,
+    "note": "DOI NOT FOUND IN OPENALEX",
+    "docs": [
+      "research_papers_curation_and_applications.md"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1145/2502081.2502229",
+    "status": 200,
+    "note": "DOI resolves to: 'ESSENTIA' (2013)",
+    "docs": [
+      "research_papers_curation_and_applications.md"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.5334/tismir.38",
+    "status": 404,
+    "note": "DOI NOT FOUND IN OPENALEX",
+    "docs": [
+      "research_papers_curation_and_applications.md"
+    ]
+  },
+  {
+    "url": "https://dunya.compmusic.upf.edu/",
+    "status": 200,
+    "note": "http 200",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://essentia.upf.edu/reference/std_TonicIndianArtMusic.html",
+    "status": 200,
+    "note": "http 200",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ASLP-lab/Diff-Rhythm",
+    "status": 404,
+    "note": "REPO NOT FOUND",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Anjok07/ultimatevocalremovergui",
+    "status": 200,
+    "note": "repo ok: Anjok07/ultimatevocalremovergui stars=26728",
+    "docs": [
+      "audio_pipeline_and_tooling.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Dream-High/RMVPE",
+    "status": 200,
+    "note": "repo ok: Dream-High/RMVPE stars=337",
+    "docs": [
+      "audio_pipeline_and_tooling.md"
+    ]
+  },
+  {
+    "url": "https://github.com/GaneshTS06/Raga-Classifier",
+    "status": 200,
+    "note": "repo ok: GaneshTS06/Raga-Classifier stars=2",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://github.com/MTG/compIAM",
+    "status": 200,
+    "note": "repo ok: MTG/compIAM stars=39",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://github.com/MTG/saraga",
+    "status": 200,
+    "note": "repo ok: MTG/saraga stars=21",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://github.com/MoonInTheRiver/DiffSinger",
+    "status": 200,
+    "note": "repo ok: MoonInTheRiver/DiffSinger stars=4883",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ParampreetSingh97/PIM_v1_ExAI",
+    "status": 200,
+    "note": "repo ok: ParampreetSingh97/PIM_v1_XAI stars=3",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+    "status": 200,
+    "note": "repo ok: RVC-Project/Retrieval-based-Voice-Conversion-WebUI stars=38883",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://github.com/SubramaniKrishna/HpRNet",
+    "status": 200,
+    "note": "repo ok: SubramaniKrishna/HpRNet stars=3",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://github.com/SunoAI-API/Suno-API",
+    "status": 200,
+    "note": "repo ok: SunoAI-API/Suno-API stars=1815",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://github.com/SuryaMajumder/Thaat-Raga-Identification",
+    "status": 404,
+    "note": "REPO NOT FOUND",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://github.com/facebookresearch/audiocraft",
+    "status": 200,
+    "note": "repo ok: facebookresearch/audiocraft stars=23751",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://github.com/facebookresearch/demucs",
+    "status": 200,
+    "note": "repo ok: facebookresearch/demucs stars=10399",
+    "docs": [
+      "audio_pipeline_and_tooling.md"
+    ]
+  },
+  {
+    "url": "https://github.com/gcui-art/suno-api",
+    "status": 200,
+    "note": "repo ok: gcui-art/suno-api stars=3268",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://github.com/guruprasanth02/Mridangam-stroke-detection",
+    "status": 200,
+    "note": "repo ok: guruprasanth02/Mridangam-stroke-detection stars=0",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://github.com/hari2897/shruti-monitor",
+    "status": 200,
+    "note": "repo ok: hari2897/shruti-monitor stars=6",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://github.com/lucidrains/bs-roformer",
+    "status": 200,
+    "note": "repo ok: lucidrains/BS-RoFormer stars=993",
+    "docs": [
+      "audio_pipeline_and_tooling.md"
+    ]
+  },
+  {
+    "url": "https://github.com/madhavlab/2025_drumtrans_rkodag",
+    "status": 200,
+    "note": "repo ok: madhavlab/2025_drumtrans_rkodag stars=1",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://github.com/marl/crepe",
+    "status": 200,
+    "note": "repo ok: marl/crepe stars=1423",
+    "docs": [
+      "audio_pipeline_and_tooling.md"
+    ]
+  },
+  {
+    "url": "https://github.com/maxrmorrison/torchcrepe",
+    "status": 200,
+    "note": "repo ok: maxrmorrison/torchcrepe stars=525",
+    "docs": [
+      "audio_pipeline_and_tooling.md"
+    ]
+  },
+  {
+    "url": "https://github.com/multimodal-art-projection/YuE",
+    "status": 200,
+    "note": "repo ok: multimodal-art-projection/YuE stars=12527",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://github.com/naturalstupid/PyCarnatic",
+    "status": 200,
+    "note": "repo ok: naturalstupid/PyCarnatic stars=14",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://github.com/open-mmlab/Amphion",
+    "status": 200,
+    "note": "repo ok: open-mmlab/Amphion stars=10319",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://github.com/openai/jukebox",
+    "status": 200,
+    "note": "repo ok: openai/jukebox stars=8030",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://github.com/parakalan/RagaRecognition",
+    "status": 200,
+    "note": "repo ok: parakalan/RagaRecognition stars=12",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://github.com/pranav6670/Detection-Classification-of-Tabla-taals",
+    "status": 200,
+    "note": "repo ok: pranav6670/Detection-Classification-of-Tabla-taals stars=30",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://github.com/rajarshi51382/microtonal-carnatic",
+    "status": 200,
+    "note": "repo ok: rajarshi51382/microtonal-carnatic stars=2",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://github.com/shubhlohiya/automatic-raga-reference",
+    "status": 404,
+    "note": "REPO NOT FOUND",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://github.com/sohamm20/raag-identifier",
+    "status": 200,
+    "note": "repo ok: sohamm20/raag-identifier stars=0",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://github.com/spotify/basic-pitch",
+    "status": 200,
+    "note": "repo ok: spotify/basic-pitch stars=5952",
+    "docs": [
+      "audio_pipeline_and_tooling.md"
+    ]
+  },
+  {
+    "url": "https://github.com/sruthiv98/RagaClassifier",
+    "status": 200,
+    "note": "repo ok: sruthiv98/RagaClassifier stars=0",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://github.com/stabilityai/stable-audio-tools",
+    "status": 404,
+    "note": "REPO NOT FOUND",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://github.com/suno-ai/bark",
+    "status": 200,
+    "note": "repo ok: suno-ai/bark stars=39270",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://github.com/voicepaw/so-vits-svc-fork",
+    "status": 200,
+    "note": "repo ok: voicepaw/so-vits-svc-fork stars=9331",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://kits.ai",
+    "status": 200,
+    "note": "http 200",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://moises.ai",
+    "status": 200,
+    "note": "http 200",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://mtg.github.io/saraga/",
+    "status": 200,
+    "note": "http 200",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://mubert.com",
+    "status": 200,
+    "note": "http 200",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://openalex.org/W2105193910",
+    "status": 404,
+    "note": "OPENALEX ID NOT FOUND",
+    "docs": [
+      "research_papers_curation_and_applications.md"
+    ]
+  },
+  {
+    "url": "https://openalex.org/W2107449557",
+    "status": 200,
+    "note": "W-id is: 'Les aspects psychodynamiques des troubles de comportement chez le sujet s\u00e9nescent et leur approche psychodynamique'",
+    "docs": [
+      "research_papers_curation_and_applications.md"
+    ]
+  },
+  {
+    "url": "https://openalex.org/W2116246416",
+    "status": 404,
+    "note": "OPENALEX ID NOT FOUND",
+    "docs": [
+      "research_papers_curation_and_applications.md"
+    ]
+  },
+  {
+    "url": "https://openalex.org/W2126260840",
+    "status": 404,
+    "note": "OPENALEX ID NOT FOUND",
+    "docs": [
+      "research_papers_curation_and_applications.md"
+    ]
+  },
+  {
+    "url": "https://openalex.org/W2155799159",
+    "status": 404,
+    "note": "OPENALEX ID NOT FOUND",
+    "docs": [
+      "research_papers_curation_and_applications.md"
+    ]
+  },
+  {
+    "url": "https://openalex.org/W2188206232",
+    "status": 404,
+    "note": "OPENALEX ID NOT FOUND",
+    "docs": [
+      "research_papers_curation_and_applications.md"
+    ]
+  },
+  {
+    "url": "https://openalex.org/W3094895689",
+    "status": 404,
+    "note": "OPENALEX ID NOT FOUND",
+    "docs": [
+      "research_papers_curation_and_applications.md"
+    ]
+  },
+  {
+    "url": "https://soundraw.io",
+    "status": 200,
+    "note": "http 200",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://suno.com",
+    "status": 200,
+    "note": "http 200",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://udio.com",
+    "status": 200,
+    "note": "http 200",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://www.aiva.ai",
+    "status": 200,
+    "note": "http 200",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/c/freesound-audio-tagging-2019",
+    "status": 200,
+    "note": "http 200",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/datasets",
+    "status": 200,
+    "note": "http 200",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification",
+    "status": 200,
+    "note": "kaggle http 200",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/datasets/imsparsh/musicnet-dataset",
+    "status": 200,
+    "note": "kaggle http 200",
+    "docs": [
+      "generative_music_ai.md"
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/datasets/indian-music-raga",
+    "status": "BAD",
+    "note": "INVALID KAGGLE URL (needs owner/slug) -> fabricated",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/datasets/ragas-with-features",
+    "status": "BAD",
+    "note": "INVALID KAGGLE URL (needs owner/slug) -> fabricated",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/datasets/saraga-carnatic-music-dataset",
+    "status": "BAD",
+    "note": "INVALID KAGGLE URL (needs owner/slug) -> fabricated",
+    "docs": [
+      "INDEX.md",
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/datasets/tabla-taala-dataset",
+    "status": "BAD",
+    "note": "INVALID KAGGLE URL (needs owner/slug) -> fabricated",
+    "docs": [
+      "INDEX.md",
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://www.ragasurabhi.com",
+    "status": 200,
+    "note": "http 200",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://www.swarganga.org",
+    "status": 200,
+    "note": "http 200",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://www.tanarang.com",
+    "status": 200,
+    "note": "http 200",
+    "docs": [
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://zenodo.org/records/3741477",
+    "status": 200,
+    "note": "zenodo record: 'jon-xu/scSplit: bug fix'",
+    "docs": [
+      "INDEX.md",
+      "indian_classical_mir_ecosystem.md"
+    ]
+  },
+  {
+    "url": "https://zenodo.org/records/4068199",
+    "status": 200,
+    "note": "zenodo record: 'Data Protection in Biomedical Research'",
+    "docs": [
+      "INDEX.md",
+      "indian_classical_mir_ecosystem.md"
+    ]
+  }
+]
